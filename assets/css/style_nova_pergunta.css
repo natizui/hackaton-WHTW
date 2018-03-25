@@ -62,3 +62,33 @@
     width: 85%;
 }
 
+#send-button{
+    display: inline-block;
+    position: relative;
+    padding: .5em .8em;
+    vertical-align: middle;
+    min-height: 2.46153846em;
+    box-sizing: border-box;
+    font-weight: 400;
+    font-family: inherit;
+    line-height: 1;
+    text-align: center;
+    text-decoration: none;
+    background-color: transparent;
+    border-radius: 2px;
+    border: 1px solid transparent;
+    cursor: pointer;
+    outline: none;
+    touch-action: manipulation;
+    transition: all .1s ease-in;
+    background-color: #004D40;
+    margin-right: 12px;
+    margin-top:15px;
+    color: white;
+}
+
+#send-button-div{
+    display:flex;
+    justify-content: flex-end;
+}
+
