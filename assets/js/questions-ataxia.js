@@ -8,36 +8,6 @@ var questionsDictionary = {
     "tag": "Ataxia",
     "user_name": "Dra. Joana da Silva",
     "url": "ataxia.html"
-  },
-  2: {
-    "title": "Suplementação com magnésio",
-    "text": "Quais os benefícios da suplementação com cloreto de magnésio em pacientes com ataxia?",
-    "vote_amount": 1,
-    "answer_amount": 2,
-    "date": 5,
-    "tag": "Suplemento",
-    "user_name": "Dra. Zenaide Pereira",
-    "url": "#"
-  },
-  3: {
-    "title": "Ozonioterapia",
-    "text": "Existe alguma linha de tratamento para ataxia envolvendo ozonioterapia?",
-    "vote_amount": 0,
-    "answer_amount": 3,
-    "date": 5,
-    "tag": "Ozonioterapia",
-    "user_name": "Dra. Ângela Souza",
-    "url": "#"
-  },
-  4: {
-    "title": "Ataxia e glúten",
-    "text": "Existe alguma relação entre o consumo de glúten e a ataxia?",
-    "vote_amount": 1,
-    "answer_amount": 0,
-    "date": 7,
-    "tag": "Glúten",
-    "user_name": "Dra. Soraia Pinheiro",
-    "url": "#"
   }
 }
 

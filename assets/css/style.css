@@ -21,9 +21,13 @@ h2 {
   padding-bottom: 14px;
   padding-left: 10px;
   padding-right: 10px;
-  background-color: hsl(0, 0%, 70%);
+  background-color: hsl(0, 0%, 85%);
   color: hsl(0, 0%, 10%);
   font-weight: 800;
+}
+
+textarea {
+  resize: none;
 }
 
 #header {
@@ -74,8 +78,8 @@ ul.tag-list {
 li.tag-list-item a {
   padding-top: 25px;
   padding-bottom: 25px;
-  padding-left: 20px;
-  padding-right: 20px;
+  padding-left: 10px;
+  padding-right: 10px;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -93,4 +97,45 @@ li.tag-list-item a {
 .list-item-amount {
   font-size: 14px;
   font-weight: 400;
+}
+
+
+
+
+.question-vote, .question-response {
+  display: flex;
+}
+
+.question-response {
+  margin-top: 10px;
+}
+
+
+.vote-icon {
+  margin-left: 10px;
+  width: 30px;
+  height: 30px;
+  display: inline-block;
+  background-image: url('img/up.png');
+  background-size: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.response-icon {
+  margin-left: 10px;
+  width: 30px;
+  height: 30px;
+  display: inline-block;
+  background-image: url('img/response.png');
+  background-size: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.vote-number, .response-number {
+  height: 28px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
