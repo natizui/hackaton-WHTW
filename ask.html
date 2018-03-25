@@ -7,7 +7,7 @@
     <title>Ophiuchus - Nova Pergunta</title>
 
     <link rel="stylesheet" href="assets/css/style.css">
-    <link rel="stylesheet" href="assets/css/style_nova_pergunta.css">
+    <link rel="stylesheet" href="assets/css/ask.css">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <!--[if lt IE 9]>
@@ -17,61 +17,38 @@
 
   <body>
     <header id="header" class="main">
-      <div>Ophiucus</div>
+      <h1>Ophiucus</h1>
     </header>
 
     <nav id="navigation" class="menu">
-        <ul class='navigation-list'>
-                <li><a class="navigation-list-item" href="questions.html">Perguntas</a></li>
-                <li><a class="navigation-list-item" href="tags.html">Tags</a></li>
-                <li><a class="navigation-list-item selected " href="ask.html">Nova Pergunta</a></li>
-        </ul>
+      <ul class='navigation-list'>
+        <li><a class="navigation-list-item" href="questions.html">Perguntas</a></li>
+        <li><a class="navigation-list-item" href="tags.html">Tags</a></li>
+        <li><a class="navigation-list-item selected " href="ask.html">Nova Pergunta</a></li>
+      </ul>
     </nav>
 
     <section class="main" id="ask">
-        <form id="question-form" action="/questions/ask/" method="post">
-            <div id="question-title">
-                <div id="size-normalizer">
-                    <table id="ask-title-table">
-                        <tr>
-                            <td id="ask-title-label">
-                                <label for="title">Título</label>
-                            </td>
-                            <td>
-                                <input id="title" type="text"
-                                tabindex="100"
-                                placeholder="Qual a sua pergunta? Seja específico." />
-                            </td>
-                        </tr>
-                    </table>
-                </div>
-                <div id="question-body-div">
-                    <div id="question-button">
-                        <span></span>
-                    </div>
-                    <div id="question-body-textarea-div">
-                        <textarea id="question-input"
-                        tabindex="101">
+      <form class="question-form" action="/questions/ask/" method="post">
+        <div class="question-title">
+          <label for="title">Título</label>
+          <input id="title" type="text" tabindex="100" placeholder="Escreva aqui o título da sua pergunta..." />
+        </div>
 
-                        </textarea>
-                    </div>
-                </div>
-                <div id="form-tags">
-                    <label>Tags</label>
-                    <input id="invisitags" style="display: none"/>
-                </div>
-                <div>
-                    <input id="tagnames" name="tagnames"
-                    placeholder="Indique ao menos uma palavra-chave"
-                    type="text"/>
-                </div>
-            </div>
-            <div id="send-button-div">
-                <button id="send-button" type="submit">
-                    Publicar
-                </button>
-            </div>
-        </form>
+        <div class="question-body">
+          <label for="title">Pergunta</label>
+          <textarea id="question-input" rows="7" cols="auto" placeholder="Escreva aqui sua pergunta..."> </textarea>
+        </div>
+
+        <div class="form-tag">
+          <label>Tags</label>
+          <input id="tagnames" name="tagnames" placeholder="Indique uma tag" type="text"/>
+        </div>
+
+        <div class="send-button">
+          <button type="submit">Publicar</button>
+        </div>
+      </form>
     </section>
 
 

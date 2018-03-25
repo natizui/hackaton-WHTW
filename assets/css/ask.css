@@ -1,0 +1,58 @@
+.question-title {
+  display: flex;
+  flex-direction: column;
+  padding: 15px 10px;
+}
+
+.form-tag label, .question-body label, .question-title label {
+  font-size: 16px;
+  font-weight: 600;
+  margin-bottom: 10px;
+  display: inline-block;
+}
+
+.question-title input {
+  padding: 10px;
+  border: none;
+  font-size: 16px;
+  color: hsl(0, 0%, 20%);
+}
+
+.question-body {
+  padding: 15px 10px;
+}
+
+.question-body textarea {
+  width: -webkit-fill-available;
+  padding: 10px;
+  border: none;
+  font-size: 16px;
+  color: hsl(0, 0%, 20%);
+}
+
+.form-tag {
+  display: flex;
+  flex-direction: column;
+  padding: 15px 10px;
+}
+
+.form-tag input {
+  padding: 10px;
+  border: none;
+  font-size: 16px;
+  color: hsl(0, 0%, 20%);
+}
+
+.send-button {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.send-button button {
+  width: 100%;
+  border: none;
+  background-color: #2E7D32;
+  padding: 10px;
+  font-size: 18px;
+  color: hsl(0, 0%, 90%);
+}
