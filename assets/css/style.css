@@ -1,27 +1,35 @@
 html, body {
   margin: 0;
   padding: 0;
+  background-color: hsl(0, 0%, 95%);
 }
 
 *{
-  font-family: sans-serif;
+  font-family: Arial;
 }
 
 #header {
-  padding-left: 5px;
-  padding-right: 5px;
-  padding-top: 10px;
-  padding-bottom: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background-color: #004D40;
+  color: hsl(0, 0%, 90%);
+  font-size: 20px;
 }
 
 #navigation {
-  padding-left: 5px;
-  padding-right: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 13px;
+  padding-bottom: 13px;
+  background-color: #00695C;
 }
 
 ul.navigation-list {
   list-style: none;
   padding: 0;
+  margin: 0;
   display: flex;
   flex-direction: row;
   justify-content: space-around;
@@ -29,16 +37,18 @@ ul.navigation-list {
 
 a.navigation-list-item {
   text-decoration: none;
-  color: hsl(0, 0%, 10%);
+  color: hsl(0, 0%, 90%);
+  padding-bottom: 10px;
 }
 
 a.navigation-list-item.selected {
-  border-bottom: 2px solid hsl(0, 0%, 10%);
+  border-bottom: 4px solid hsl(0, 0%, 90%);
 }
 
 #main {
   padding-left: 5px;
   padding-right: 5px;
+  margin-top: -15px;
 }
 
 ul.tag-list {
@@ -46,11 +56,24 @@ ul.tag-list {
   padding: 0;
 }
 
-li.tag-list-item {
-  padding-top: 15px;
-  padding-bottom: 15px;
+li.tag-list-item a {
+  padding-top: 25px;
+  padding-bottom: 25px;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   border-bottom: 1px solid hsl(0, 0%, 20%);
+  text-decoration: none;
+  color: hsl(0, 0%, 10%);
+  font-size: 16px;
+  font-weight: 200;
+}
+
+.list-item-name {
+  font-weight: 600;
+}
+
+.list-item-amount {
+  font-size: 14px;
+  font-weight: 400;
 }

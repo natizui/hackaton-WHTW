@@ -11,11 +11,13 @@ var tagsDictionary = {
 
     var tagElement =
         "<li class='tag-list-item'>"
-      +   "<div>" + name + "</div>"
-      +   "<div>"
+      +   "<a href='#'>"
+      +   "<div class='list-item-name'>" + name + "</div>"
+      +   "<div class='list-item-amount'>"
       +     "<span>" + amount + " perguntas</span><br/>"
       +     "<span></span>"
       +   "</div>"
+      +   "</a>"
       + "</li>"
 
       $("ul.tag-list").append(tagElement);
